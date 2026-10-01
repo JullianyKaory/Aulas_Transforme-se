@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: row; /*alinha na horizontal*/
+  align-items: center; /*alinha na vertical*/
+  width: 100%;
+  height: 800px;
+  border: 1px solid #000;
+  gap: 10px;
+}
+
+.elemento {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+#div1 {
+  background-color: rgb(106, 224, 96);
+}
+
+#div2 {
+  background-color: rgb(84, 141, 220);
+}
+
+#div3 {
+  background-color: rgb(111, 65, 219);
+}

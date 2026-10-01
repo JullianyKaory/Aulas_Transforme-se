@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Marque sua Consulta!</legend>
+            <label for="nome">Nome do Paciente:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome completo..." required/>
+            <br/>
+
+            <label for="data">Data da Consulta:</label> 
+            <input type="date">
+            <br/>
+
+            <label for="">Especialidades:</label>
+            <select name="espe" id="espe">
+                <outgroup>
+                    <option value="Especialidades">--Escolha--</option>
+                    <option value="CG">Clinica Geral</option>
+                    <option value="Derma">Dermatologista</option>
+                    <option value="Pedia">Pediatria</option>
+                    <option value="Cardio">Cardiologista</option>
+                    <option value="Pedia">Ortopedista</option>
+                </outgroup>
+            </select>
+            <br/>
+
+            <label for="">Plano de Saúde:</label>
+            <select name="plano" id="plano">
+                <optgroup>
+                    <option value="plano">--Escolha--</option>
+                    <option value="Particular">Particular</option>
+                    <option value="Amil">Amil</option>
+                    <option value="Unimed">Unimed</option>
+                    <option value="Todos">Cartão Todos</option>
+                    <option value="Bradesco">Bradesco Saúde</option>
+                </optgroup>
+            </select>
+            <br/>
+            
+            <label for="pv">Primeira vez na nossa clínica?</label>
+            <input type="radio" name="pv" id="pv"/> Sim
+            <input type="radio" name="pv" id="pv"/> Não
+            <br/>
+
+            <label for="acess">Necessidade de Acessibilidade no local:</label> <br/>
+            <input type="checkbox" name="rampa" id=""/>Rampa de acesso </br>
+            <input type="checkbox" name="libras" id=""/>Intérprete de Libras </br>
+            <input type="checkbox" name="cao" id=""/>Cão Guia</br>
+            </br>
+
+            <label for="guia">Guia Médica ou Encaminhamento</label> <br />
+            <input type="file" name="guia" id="guia" accept=".pdf, .docx" />
+            <br />
+            
+            <input type="submit" value="Confirmar agendamento" />
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>

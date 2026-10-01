@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(47, 139, 62);
+    color: aliceblue;
+}
+
+ul{
+    color: rgb(245, 242, 247);
+    list-style-type:square;
+    list-style-position:inside;
+}
+

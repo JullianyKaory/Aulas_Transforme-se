@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário 2</title>
+  </head>
+  <body>
+    <!-- Formulários -->
+    <form action="" method="get">
+      <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" id="nome" />
+        <br />
+        <label for="numero">Número:</label>
+        <input
+          type="number"
+          name="numero"
+          id="numero"
+          minlength="4"
+          maxlength="10"
+          step="5"
+          required
+        />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <label for="senha">Senha:</label>
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          minlength="6"
+          maxlength="15"
+          required
+        />
+        <br />
+
+        <label for="check">Aceita os termos?</label>
+        <input type="checkbox" name="check" id="check" checked />
+        <br />
+
+        <label for="contaP">Conta Pessoal</label>
+        <input type="radio" name="conta" id="contaP" /> Sim
+
+        <label for="contaJ"></label>
+        <input type="radio" name="conta" id="contaJ" /> Não
+
+        <p>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Apagar" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
