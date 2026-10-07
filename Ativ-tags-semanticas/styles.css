@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#cabecalho {
+  position: relative;
+  top: 0%;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(109, 204, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#cabecalho h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+#container {
+  position: relative;
+  display: flex;
+}
+
+#sect1 {
+  display: flex;
+  position: relative;
+  width: 30%;
+  height: 800px;
+  background-color: rgb(17, 187, 130);
+  flex-direction: column;
+}
+
+nav {
+  width: 90%;
+  height: 400px;
+  background-color: rgb(43, 107, 226);
+  margin: 25px;
+}
+
+aside {
+  width: 90%;
+  height: 400px;
+  background-color: rgb(50, 230, 95);
+  margin: 25px;
+}
+
+#sect2 {
+  position: relative;
+  width: 70%;
+  height: 800px;
+  background-color: yellow;
+}
+
+article {
+  position: relative;
+  width: 95%;
+  height: 720px;
+  background-color: rgb(50, 230, 95);
+  margin: 25px;
+}
+
+h1 {
+  width: 90%;
+  height: 80px;
+  background-color: rgb(109, 204, 81);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+p {
+  width: 90%;
+  height: 180px;
+  background-color: rgb(81, 83, 204);
+  margin: 30px;
+}
+
+#div_img {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(250, 247, 74);
+  margin: 30px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background-color: rgb(1, 12, 112);
+  color: white;
+}
