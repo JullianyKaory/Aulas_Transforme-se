@@ -1,0 +1,179 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin: 1% auto;
+}
+
+#cabecalho {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(248, 3, 117);
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+#cabecalho h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(190, 20, 100);
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+#links {
+  position: relative;
+  width: 20%;
+  height: 700px;
+  background-color: rgb(170, 38, 100);
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+}
+
+main {
+  position: relative;
+  width: 60%;
+  height: 700px;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-color: rgb(175, 58, 113);
+}
+
+section h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
+
+#head_sect {
+  position: relative;
+  width: 90%;
+  height: 40px;
+  background-color: rgb(175, 58, 113);
+  text-align: center;
+  color: aliceblue;
+  margin: auto;
+}
+
+#div1 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(143, 35, 85);
+  color: aliceblue;
+  margin-top: 1%;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+p {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(117, 12, 61);
+  color: aliceblue;
+  margin-top: 1%;
+  font-size: 20px;
+}
+
+.container3{
+position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 15px;
+}
+
+
+#div2 {
+  position: relative;
+  display: flex;
+  width: 30%;
+  height: 180px;
+  background-color: rgb(97, 4, 47);
+  color: aliceblue;
+  margin-top: 1%;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+#div3 {
+  position: relative;
+  display: flex;
+  width: 33%;
+  height: 180px;
+  background-color: rgb(141, 7, 69);
+  color: aliceblue;
+  margin-top: 1%;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#div4 {
+  position: relative;
+  display: flex;
+  width: 33%;
+  height: 180px;
+  background-color: rgb(170, 8, 84);
+  color: aliceblue;
+  margin-top: 1%;
+  font-size: 20px;
+  justify-content: center;
+  flex-direction: row;
+}
+
+aside {
+  position: relative;
+  width: 20%;
+  height: 700px;
+  background-color: rgb(196, 53, 120);
+  color: aliceblue;
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(231, 98, 160);
+}
+
+footer h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
