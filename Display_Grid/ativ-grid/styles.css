@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: 0;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cabecalho"
+    "principal"
+    "rodape";
+}
+
+header {
+  position: relative;
+  grid-area: cabecalho;
+  width: 100%;
+  height: 80px;
+  background-color: #ac2828;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.container2 {
+  position: relative;
+  grid-area: principal;
+  display: flex;
+}
+
+#esquerda {
+  position: relative;
+  width: 30%;
+  height: 400px;
+  background-color: #a31d1d;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+main {
+  position: relative;
+  width: 70%;
+}
+
+nav,
+aside {
+  position: relative;
+  width: 80%;
+  height: 180px;
+  background-color: #721c1c;
+  color: aliceblue;
+}
+
+#direita {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-color: #b13030;
+  color: aliceblue;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+  grid-area: rodape;
+  width: 100%;
+  height: 80px;
+  background-color: #c74040;
+  color: aliceblue;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .container2{
+    flex-direction: column;
+  }
+
+
+   #esquerda, main{
+  width: 100%;
+}
+}
