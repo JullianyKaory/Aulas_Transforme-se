@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+  border: 0;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(30, 87, 173);
+  margin: 2% auto;
+
+  animation-name: transformar;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 3;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+  animation-play-state: running;
+
+}
+
+ .item:hover {
+    animation-play-state: paused;
+  }
+
+@keyframes transformar {
+  0% {
+  }
+
+  50% {
+    background-color: rgb(57, 13, 61);
+    transform: scale(1.5) rotate(0);
+  }
+
+  75% {
+    background-color: rgb(37, 14, 44);
+    transform: scale(1.5) rotate(360deg);
+    border-radius: 0;
+  }
+
+  100% {
+    background-color: rgb(61, 19, 100);
+    border-radius: 50%;
+  }
+}

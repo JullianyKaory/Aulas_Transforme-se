@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  padding: 2rem;
+  margin: 1% auto;
+  background-color: blueviolet;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  /* Propriedades de Transição */
+  /* transition-property: transform, background-color;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  transition-delay: 0.5s; */
+
+  transition: all 2s ease-in-out;
+}
+
+.container:hover .item{
+    transform: translateX(200px) scale(1.4) rotate(50deg);
+    background-color: rgb(32, 143, 22);
+}
