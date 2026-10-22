@@ -1,1 +1,0 @@
-let idade = Number(prompt("Quantos anos você tem?"));
