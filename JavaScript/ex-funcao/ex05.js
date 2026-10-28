@@ -1,0 +1,1 @@
+const calcularArea = (base, altura) => base * altura;
